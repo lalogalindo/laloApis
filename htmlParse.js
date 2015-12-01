@@ -80,21 +80,15 @@ var htmlParse = function(type,options) {
         }
     }
 
-    if( type === "input" ) {
-        
-    }
-
     if( type === "select" ) {
-        this.option = function(text,attr){
+        this.option = function(attr){
             var opcion = new htmlParse('option',attr)
             this.addContent( opcion )
         }
 
-        this.clearEmpty = function() {
-            for( child in this.el.childNodes ) {
-                if( this.el.hasOwnProperty( child ) )
-                    this.el.removeChild(this.el.childNodes[child])
-            }
+        this.toForm = function( idForm ) {
+            this.el.form = idForm
+            return this
         }
     }
 
@@ -122,4 +116,8 @@ var htmlParse = function(type,options) {
         this.setAttributes(this.el,options)
     } else if( typeof options === 'string' ) 
         this.el.textContent = options
+}
+
+var select = function(elemento) {
+
 }
