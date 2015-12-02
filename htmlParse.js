@@ -7,9 +7,13 @@ Element.prototype.setAttributes = function (attr) {
   return el
 }
 
+String.prototype.capitalizeFirst = function(string) {
+    return this.charAt(0).toUpperCase() + this.slice(1)
+}
+
 var htmlParse = function(type,options) {
     this.el = document.createElement( type )
-    
+
     this.addContent = function(el) {
         if( typeof el === 'string' )
             this.el.textContent = el
@@ -81,6 +85,7 @@ var htmlParse = function(type,options) {
     }
 
     if( type === "select" ) {
+        this.prototype = HTMLSelectElement.prototype
         this.option = function(attr){
             var opcion = new htmlParse('option',attr)
             this.addContent( opcion )
@@ -116,8 +121,4 @@ var htmlParse = function(type,options) {
         this.setAttributes(this.el,options)
     } else if( typeof options === 'string' ) 
         this.el.textContent = options
-}
-
-var select = function(elemento) {
-
 }
