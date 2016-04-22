@@ -17,10 +17,9 @@ function TablaDinamica(selectorTabla) {
 	 * @author Eduardo Galindo Franco <lalogalindo@gmail.com>
 	 */
 	function clearBody() {
-		if( !this.body )
-			this.getBody()
-		while(this.body.children.length > 0) {
-			this.body.removeChild(this.body.firstChild)
+		var body = getBody()
+		while(body.children.length > 0) {
+			body.removeChild(body.firstChild)
 		}
 	}
 
@@ -115,7 +114,7 @@ function TablaDinamica(selectorTabla) {
 				var that = this,
 				overwrite = overwrite || false
 				if( overwrite )
-					this.clearBody()
+					clearBody()
 				Array.prototype.forEach.call(items,function(item){
 					console.time('-> Init for Cycle ::addRows')
 					that.addRow(item)
