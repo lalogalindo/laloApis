@@ -1,7 +1,7 @@
 /**
  * Objeto que controla llenado, vaciado y paginado de una tabla.
  * @param {CSS Selector} selectorTabla => Selector de la tabla.
- * @author Eduardo Galindo Franco <lalogalindo@gmail.com>
+ * @author Eduardo Galindo Franco <egalindo@jobomas.com>
  */
 function TablaDinamica(selectorTabla) {
 	var TablaDinamica,tableBody
@@ -14,7 +14,7 @@ function TablaDinamica(selectorTabla) {
 	/**
 	 * Elimina todos los datos dentro del cuerpo de la tabla
 	 * @type {Method}
-	 * @author Eduardo Galindo Franco <lalogalindo@gmail.com>
+	 * @author Eduardo Galindo Franco <egalindo@jobomas.com>
 	 */
 	function clearBody() {
 		var body = getBody()
@@ -27,7 +27,7 @@ function TablaDinamica(selectorTabla) {
 	 * Obtiene el cuerpo de la tabla.
 	 * @type {Method}
 	 * @returns {HTMLTableSectionElement} => Etiqueta <tbody>
-	 * @author Eduardo Galindo Franco <lalogalindo@gmail.com>
+	 * @author Eduardo Galindo Franco <egalindo@jobomas.com>
 	 */
 	function getBody() {
 		if( !tableBody ){
@@ -69,7 +69,7 @@ function TablaDinamica(selectorTabla) {
 		 * @param {array} items       => Es un arreglo con los valores a insertar.
 		 * @param {object} attributes => Es un objeto con los atributos de la fila.
 		 * @type {Method}
-		 * @author Eduardo Galindo Franco <lalogalindo@gmail.com>
+		 * @author Eduardo Galindo Franco <egalindo@jobomas.com>
 		 */
 		addRow: {
 			value: function(item) {
