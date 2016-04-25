@@ -12,6 +12,7 @@ String.prototype.capitalizeFirst = function(string) {
 }
 
 var htmlParse = function(type,options) {
+    var htmlParse = this
     this.el = document.createElement( type )
 
     this.addContent = function(el) {

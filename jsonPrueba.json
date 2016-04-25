@@ -1,0 +1,128 @@
+[
+    { 
+        "items": [
+            {
+                "item": {
+                    "nombre"  : "Juan Pérez",
+                    "carrera" : "Computólogo",
+                    "mascota" : "Jamón"
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onclick" : "funcion1()"
+                }
+            },
+            {
+                "item": {
+                    "estudios" : "Ninguno",
+                    "mascota"  : "Jamón",
+                    "tags"     : [
+                        "Hola", "Mundo", "Cruel"
+                    ]
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onhover" : "funciona2()"
+                }
+            },
+            {
+                "item": {
+                    "boton1" : "consola('Jamon')",
+                    "boton2" : "consola('Triste')",
+                    "boton3" : "consola('Serrano')"
+                },
+                "attributes": {
+                    "class": "td1"
+                }
+            }
+        ],
+        "attributes": {
+            "class"       : "clase 1",
+            "data-toggle" : "dropdown"
+        }
+    },
+    { 
+        "items": [
+            {
+                "item": {
+                    "nombre"  : "Juan Pérez",
+                    "carrera" : "Computólogo",
+                    "mascota" : "Jamón"
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onclick" : "funcion1()"
+                }
+            },
+            {
+                "item": {
+                    "estudios" : "Ninguno",
+                    "mascota"  : "Jamón",
+                    "tags"     : [
+                        "Hola", "Mundo", "Cruel"
+                    ]
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onhover" : "funciona2()"
+                }
+            },
+            {
+                "item": {
+                    "boton1" : "consola('Jamon')",
+                    "boton2" : "consola('Triste')",
+                    "boton3" : "consola('Serrano')"
+                },
+                "attributes": {
+                    "class": "td1"
+                }
+            }
+        ],
+        "attributes": {
+            "class"       : "clase 1",
+            "data-toggle" : "dropdown"
+        }
+    },
+    { 
+        "items": [
+            {
+                "item": {
+                    "nombre"  : "Juan Pérez",
+                    "carrera" : "Computólogo",
+                    "mascota" : "Jamón"
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onclick" : "funcion1()"
+                }
+            },
+            {
+                "item": {
+                    "estudios" : "Ninguno",
+                    "mascota"  : "Jamón",
+                    "tags"     : [
+                        "Hola", "Mundo", "Cruel"
+                    ]
+                },
+                "attributes": {
+                    "class"   : "td1",
+                    "onhover" : "funciona2()"
+                }
+            },
+            {
+                "item": {
+                    "boton1" : "consola('Jamon')",
+                    "boton2" : "consola('Triste')",
+                    "boton3" : "consola('Serrano')"
+                },
+                "attributes": {
+                    "class": "td1"
+                }
+            }
+        ],
+        "attributes": {
+            "class"       : "clase 1",
+            "data-toggle" : "dropdown"
+        }
+    }
+]
