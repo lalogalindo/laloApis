@@ -1,16 +1,7 @@
 var googleApiKey = [],
 googleApiCx = []
-// Primera
-googleApiKey.push( 'AIzaSyAz1NiruPN1AK3dXgBmDmqexpqpfumpA88' )
-googleApiCx.push( '017551480749949825364:6squxmjqono' )
-/*
-// Segunda
-googleApiKey.push( 'AIzaSyCrCUJo9XqRTqmDPSxFLBCww7XeWfywdI4' )
-googleApiCx.push( '017551480749949825364:3kq6wpahxcs' )
-*/
-// Patricio
-googleApiKey.push( 'AIzaSyCsL2a-qWDCuc4rmENkQ3xmpRYSxJ90wLg' )
-googleApiCx.push( '015755766966414827275:fsf5dmbwqkw' )
+googleApiKey.push( '' )
+googleApiCx.push( '' )
 
 var googleMapApi = function(opciones) {
     googleMaps = this
